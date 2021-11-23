@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/QFeed/static/js/affordability.js</file>
+            <file>file:/QFeed/static/js/help.js</file>
+            <file>file:/QFeed/models/home/home.model.php</file>
+            <file>file:/QFeed/controllers/institutions/institutions.controller.php</file>
+            <file>file:/QFeed/controllers/home/home.controller.php</file>
+            <file>file:/QFeed/views/access/access.view.php</file>
+            <file>file:/QFeed/views/home/home.view.php</file>
+            <file>file:/QFeed/models/deductions/all.deductions.model.php</file>
+            <file>file:/QFeed/static/js/savings.js</file>
+            <file>file:/QFeed/static/js/admin.js</file>
+            <file>file:/QFeed/static/css/qfeed_home.css</file>
+            <file>file:/QFeed/static/js/institutions.js</file>
+            <file>file:/QFeed/static/css/qfeed.css</file>
+            <file>file:/QFeed/views/access/welcome.php</file>
+            <file>file:/QFeed/models/access/access.model.php</file>
+            <file>file:/QFeed/static/js/qfeed.js</file>
+            <file>file:/QFeed/errors_and_exceptions.php</file>
+            <file>file:/QFeed/controllers/access/access.controller.php</file>
+            <file>file:/QFeed/views/institutions/institutions.view.php</file>
+            <file>file:/QFeed/static/js/access.js</file>
+            <file>file:/QFeed/models/institutions/institutions.model.php</file>
+        </group>
+    </open-files>
+</project-private>

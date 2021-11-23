@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    font-family: ubuntu;
+    font-size: 11px;
+}
+#header {
+    position: relative;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1280px;
+}
+#qfeed {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 64px;
+    height: 24px;
+    background-color: #5d8aa8;
+    box-shadow: 1px 1px 3px 2px #333;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 4px;
+    text-align: center;
+}
+#content {
+    position: relative;
+    margin: 10px auto;
+    min-height: 500px;
+    min-width: 680px;
+    max-width: 1280px;
+    width: auto;
+    border: 1px solid transparent;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: #708090;
+}
+#qlogout {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 64px;
+    height: 24px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 2px rgba(55, 55, 55, 0.75);
+    text-align: center;
+    line-height: 24px;
+}
+#main {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    margin-top: 48px;
+    font-size: 13px;
+}
+#main > #wleft {
+    position: relative;
+    float: left;
+    min-width: 320px;
+    width: 50%;
+    min-height: 300px;
+}
+#main > #wleft > #winfo {
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-right: 60px;
+}
+#main > #wleft > #wrform {
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 340px;
+    box-shadow: 0px 0px 5px 1px rgba(55, 55, 55, 0.75);
+    padding: 0;
+}
+#member {
+    position: relative;
+    float: right;
+    box-shadow: -1px 0px 2px 1px rgba(55, 55, 55, 1);
+}
+.submit {
+    position: relative;
+    background-color: rgba(103,23, 127, 0.5);
+    border: none;
+    color: rgba(55, 55, 55, 0.98);;
+    font-weight: bolder;
+    border-radius: 0  0 0 0;
+    box-shadow: 1px 0px 2px 1px rgba(55, 55, 55, 1);
+    cursor: pointer;
+    width: 120px;
+    height: 24px;
+    padding: 0;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 0px;
+}
+.input_common {
+    color: #93AF00;
+    position: relative;
+    width: 260px;
+    height: 26px;
+    border: none;
+    /*box-shadow: 0px 0px 0px 1px rgba(93, 138, 168, 0.9);*/
+    border-bottom: 1px solid #5d8aa8;
+    margin-top: 11px;
+    margin-left: 30px;
+    clear: both;
+    font-size: 12px;
+    font-family: ubuntu;
+}
+.input_select {
+    background-color: #fff;
+    /*color: #93AF00;*/
+    height: 26px;
+    margin-top: 14px;
+}
+.wfrmtitle {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    background-color: #5d8aa8;
+    text-align: center;
+    font-family: ubuntu;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#main > #wmid {
+    position: relative;
+    float: left;
+    width: 4%;
+    min-height: 300px;
+    border-left: 1px dashed #93AF00;
+}
+#main > #wmid > #wor {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: -16px;
+    left: -12px;
+    color: #93AF00;
+}
+#main > #wright {
+    position: relative;
+    float: left;
+    width: 45%;
+    min-height: 300px;
+}
+#main > #wright > #wlform {
+    position: relative;
+    margin-top: 60px;
+    float: left;
+    width: 320px;
+    height: 242px;
+    box-shadow: 0px 0px 5px 1px rgba(55, 55, 55, 0.75);
+}
+#incomplete {
+    padding-top: 15px;
+    color: #CD5C5C;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+.reroute {
+    color: #93AF00;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 60px;
+}
+.altmail {
+    position: relative;
+    margin: 70px 0 0 20px;
+    width: 240px;
+    height: 64px;
+}
+#altmail {
+    position: relative;
+    width: 200px;
+    height: 24px;
+    border: 1px solid rgba(55, 55, 55, 0.45);
+    box-shadow: 0px 0px 5px 1px rgba(55, 55, 55, 0.75);
+}
+#othermail {
+    position: relative;
+    margin-top: 10px;
+    background-color: rgba(153, 153, 153, 0.99);
+    border: none;
+    color: #333;
+    height: 24px;
+    font-weight: bolder;
+    border-radius: 0  0 0 0;
+    box-shadow: 0px 0px 5px 1px rgba(55, 55, 55, 1);
+    cursor: pointer;
+}
+#forgot_pass{
+    position: relative;
+    float: left;
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 12px;
+}
+#forgot {
+    position: relative;
+    float: right;
+    box-shadow: -1px 0px 2px 1px rgba(55, 55, 55, 1);
+}
+#reset {
+    display: none;
+    margin-top: 0;
+    padding: 0;
+}
+#login_again{
+    position: relative;
+    float: left;
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 12px;
+}
+#reset_next {
+    width: 260px;
+    color: #93AF00;
+    text-align: center;
+    font-family: ubuntu;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 32px auto;
+    line-height: 24px;
+}
+#errors {
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+    text-align: center;
+}
+.errors {
+    position: relative;
+    width: 100%;
+    clear: left;
+    color: #CD5C5C;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+#verify {
+    color: #CD5C5C;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    float: left;
+    height: auto;
+    display: none;
+}
+#reg_errors {
+    color: #CD5C5C;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    float: left;
+    height: auto;
+    display: none;
+}
+#rules {
+    color: #CD5C5C;
+    position: relative;
+    margin-top: 20px;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    float: left;
+    height: auto;
+    display: none;
+    background-color: white;
+    z-index: 10;
+}
+.prules_errors {
+    text-align: center;
+    font-weight: bold;
+}
+.rules_list_errors {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px;
+
+}
+#footer {
+    position: relative;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1280px;
+    height: 18px;
+    text-align: center;
+    padding-top: 2px;
+}
+#footer > span {
+    position: relative;
+    float: left;
+    width: 20%;
+    font-size: 12px;
+    color: #333;
+}
+#footer > span > a {
+    text-decoration: none;
+    color: #5d8aa8;
+}

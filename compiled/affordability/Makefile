@@ -1,0 +1,26 @@
+NAME = affordability
+
+SRC = src/main.c src/affordability.c
+
+INC = includes/affordability.h
+
+OBJ = $(SRC:.c=.o)
+
+CFLAGS	= -Wall -Wextra -Werror
+
+$(NAME): $(OBJ)
+	@gcc $(OBJ) -o $(NAME) -I$(INC) $(CFLAGS)
+
+all: $(NAME)
+
+clean:
+	@rm -rf $(OBJ)
+
+fclean: clean
+	@rm -rf $(NAME)
+
+re: fclean $(NAME)
+	
+test:   re
+	./$(NAME) government insurance 21300 14100
+	./$(NAME) government insurance 21300 21000
